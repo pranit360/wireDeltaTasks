@@ -1,8 +1,4 @@
 
-#a {
-
-}
-
 h1 {size:60; color:blue;font-family: andalus}
 #one {font-size:20px;font-family: andalus;color:lime; }
 #one:hover {font-size:20px;font-family: andalus;color:plum}
@@ -13,17 +9,17 @@ h1 {size:60; color:blue;font-family: andalus}
     padding: 15px;
 }
 #tableOne td:hover { /* th:hover also if you wish */
-  background: yellow;
+    background: yellow;
 }
- #tableOne td.title{horizontal-align:center;color:highlighttext;font-size: 22px;font-family: andalus}
+#tableOne td.title{horizontal-align:center;color:highlighttext;font-size: 22px;font-family: andalus}
 #tableOne td.result{horizontal-align:center;padding: 0px;color:deepskyblue} 
 
- #tableTwo{border: 10px solid blueviolet}
+#tableTwo{border: 10px solid blueviolet}
 #tableTwo td {
     padding: 15px;
 }
 #tableTwo td:hover { /* th:hover also if you wish */
-  background: menu;
+    background: menu;
 }
 #tableTwo td.title{horizontal-align:center;color:highlighttext;font-size: 22px;font-family: andalus}
 #tableTwo td.result{horizontal-align:center;padding: 0px;color:deepskyblue}
@@ -33,9 +29,9 @@ h1 {size:60; color:blue;font-family: andalus}
     padding: 15px;
 }
 #tableThree td:hover { /* th:hover also if you wish */
-  background: lightpink;
+    background: lightpink;
 }
- #tableThree td.title{horizontal-align:center;color:highlighttext;font-size: 22px;font-family: andalus}
+#tableThree td.title{horizontal-align:center;color:highlighttext;font-size: 22px;font-family: andalus}
 #tableThree td.result{horizontal-align:center;padding: 0px;color:deepskyblue}
 
 #tableFour{border: 10px solid darkgray}
@@ -43,8 +39,8 @@ h1 {size:60; color:blue;font-family: andalus}
     padding: 15px;
 }
 #tableFour td:hover { /* th:hover also if you wish */
-  background: graytext;
+    background: graytext;
 }
- #tableFour td.title{horizontal-align:center;color:highlighttext;font-size: 22px;font-family: andalus}
+#tableFour td.title{horizontal-align:center;color:highlighttext;font-size: 22px;font-family: andalus}
 #tableFour td.result{horizontal-align:center;padding: 0px;color:deepskyblue}
- 
+
