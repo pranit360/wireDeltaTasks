@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <title>Tasks</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/functions.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">        
+    </head>
+    <body>
+        <div align="center">
+            <h1>Tasks for WireDelta solved by Pranit Anand.</h1>
+        <form name="form">
+            <table id="tableOne">
+                <tr>
+                    <td class="title"><p id="two">Task one: Age calculation</p></td>
+
+                </tr>
+                <tr>
+                    <td><p id="one">Enter Birth Year:</p></td>
+                    <td><input type="number" name="text1" id="one"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Calculate Age" onclick="calculateAge();"></td>
+
+                </tr>
+                <tr><td><p id="one">Your current age is:</p></td><td class="result"><p name="getOutput" id="output"></p></td></tr>
+
+            </table>
+            
+        </form>
+            <br>
+            <form name="form2">
+                <table id="tableTwo">
+                    <tr>
+                        <td class="title"><p id="two"> Task Two: Consumption finder</p></td>
+
+                    </tr>
+                    <tr>
+                        <td><p id="one">Enter age:</p></td>
+                        <td><input type="number" name="text1" id="one"></td>
+                    </tr>
+                    <tr>
+                        <td><p id="one">Please Enter daily consumption(grams):</p></td>
+                        <td><input type="number" name="text2" id="one"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><input type="button" value="Calculate Consumption Left" onclick="calculateSupply();"></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                    <table name="inside">
+                    <tr><td class="result"><p id="one">You will need </p></td>
+                        <td class="result"><p name="getOutput" id="output1">?</p></td>
+                        <td class="result"><p id="one"> grams to last you until the ripe old age of </p></td>
+                        <td class="result"><p name="getOutput" id="output2">?</p></td>        
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <form name="form3">
+                <table id="tableThree">
+                    <tr>
+                        <td class="title"><p id="two"> Task three: Get circumference and area of a circle</p></td>
+
+                    </tr>
+                    <tr>
+                        <td><p id="one">Please enter the radius of the circle:</p></td>
+                        <td><input type="number" name="text1" id="one"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><input type="button" value="Calculate Circumference and Area" onclick="doCalculate();"></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                    <table name="inside">
+                        <tr><td class="result"><p id="one">Results </p></td></tr>
+                        <tr>
+                            <td class="result"><p id="one">Circumference </p></td>
+                            <td class="result"><p name="getOutput" id="output3">?</p></td></tr>
+                        <tr>
+                        <td class="result"><p id="one">Area</p></td>
+                        <td class="result"><p name="getOutput" id="output4">?</p></td>        
+                    </tr>
+                    </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            
+            <br>
+            <form name="form4">
+                <table id="tableFour">
+                    <tr>
+                        <td class="title"><p id="two"> Task four: Temperature conversions</p></td>
+
+                    </tr>
+                    <tr>
+                        <td class="data" >
+                            <table name="fahrenheit" style="border:5px solid aquamarine;">
+                        <tr>
+                            <td><p id="one">Converting from celcius to fahrenheit</p></td>
+                        </tr>
+                        <tr>
+                            <td><p id="one">Please enter temperature in degrees celcius: </p></td>
+                    <td><input type="number" name="text1" id="one"></td>
+                            </tr>
+                                    <tr><td>
+                                <input type="button" value="Convert to Fahrenheit" onclick="toFahrenheit();">
+                                </td>
+                                    </tr>
+                                    <tr><td>
+                                  <table>
+                                      <tr>
+                                      <td class="result"><p name="getOutput5" id="output5">?</p></td>
+                            <td class="result"><p id="one">degrees celcius is </p></td>
+                            <td class="result"><p name="getOutput6" id="output6">?</p></td>
+                            <td class="result"><p id="one">degrees fahrenheit </p></td>
+                                     </tr>
+                                  </table>
+                                        </td></tr>
+                                      </table>
+                        </td>
+                    </tr>
+                        
+                <tr>
+                        <td>
+                            <table name="celcius" style="border:5px solid plum;">
+                        <tr>
+                            <td><p id="one">Converting from fahrenheit to celcius</p></td>
+                        </tr>
+                        <tr>
+                            <td><p id="one">Please enter temperature in degrees fahrenheit: </p></td>
+                    <td><input type="number" name="text2" id="one"></td>
+                            </tr>
+                                    <tr><td>
+                                <input type="button" value="Convert to Celcius" onclick="toCelcius();">
+                                </td>
+                                    </tr>
+                                    <tr><td>
+                                              <table><tr>
+                                      <td class="result"><p name="getOutput7" id="output7">?</p></td>
+                            <td class="result"><p id="one">degrees Fahrenheit is </p></td>
+                            <td class="result"><p name="getOutput8" id="output8">?</p></td>
+                            <td class="result"><p id="one">degrees celcius </p></td>
+                                                          
+                                          </tr></table>
+                                      </td>
+                            </tr>
+                           </table>
+                        </td>
+                </tr>
+                            
+                            
+                </table>
+                    
+            </form>
+            
+            
+            
+            
+        </div>
+                </body>
+                </html>
